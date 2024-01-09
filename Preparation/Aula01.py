@@ -35,6 +35,8 @@ from tkinter import ttk
 # Cria uma instância da classe Tk(), que representa a janela principal da GUI. 
 # root é geralmente usado como um nome comum para a instância principal da janela.
 root = Tk()
+# Define o tamanho da janela
+root.geometry("800x500")
 # Esta linha cria um botão (Button) com o texto "Hello World" e o coloca na janela principal (root). 
 # O widget ttk.Button é utilizado para criar botões usando o tema aprimorado do ttk. 
 # O método pack() organiza os widgets em blocos antes de inseri-los na janela. 
